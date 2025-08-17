@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BUZİ Kiosk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="screen-welcome" class="screen">
+    <div class="lock-icon">🔒</div>
+    <img src="images/logo.svg" class="logo" alt="BUZLIME" />
+    <div class="welcome-cups">
+      <img src="images/cup.svg" class="cup" alt="cup" />
+      <img src="images/cup.svg" class="cup" alt="cup" />
+      <img src="images/cup.svg" class="cup" alt="cup" />
+    </div>
+    <button id="start-order" class="start-btn" data-i18n="start"></button>
+    <button class="lang-toggle">Tr/En</button>
+  </div>
+
+  <div id="screen-select" class="screen hidden">
+    <div class="lock-icon">🔒</div>
+    <img src="images/logo.svg" class="logo" alt="BUZLIME" />
+    <div class="options">
+      <div class="option" data-size="300">
+        <img src="images/cup.svg" class="cup" alt="cup" />
+        <div class="label" data-i18n="small"></div>
+        <div class="label" data-i18n="smallPrice"></div>
+      </div>
+      <div class="option" data-size="400">
+        <img src="images/cup.svg" class="cup" alt="cup" />
+        <div class="label" data-i18n="large"></div>
+        <div class="label" data-i18n="largePrice"></div>
+      </div>
+    </div>
+    <button class="lang-toggle">Tr/En</button>
+  </div>
+
+  <div id="screen-pay" class="screen hidden">
+    <div class="lock-icon">🔒</div>
+    <img src="images/logo.svg" class="logo" alt="BUZLIME" />
+    <p class="pay-text" data-i18n="payPrompt"></p>
+    <img src="images/terminal.svg" class="terminal" alt="terminal" />
+    <div class="cards">VISA • MasterCard • TROY</div>
+    <button class="lang-toggle">Tr/En</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "ui_language": "TR",
+  "ui_timeout_s": 30,
+  "pins": {
+    "admin": "1234",
+    "service": "5678"
+  },
+  "payment": {
+    "enabled": false,
+    "timeout_s": 60
+  },
+  "fill": {
+    "delta_h": 5,
+    "t_on_min_ms": 200,
+    "t_off_min_ms": 200,
+    "timeout_s": 120
+  },
+  "refill": {
+    "low_esik": 20,
+    "mid_esik": 50,
+    "min_acik_s": 5
+  },
+  "over_freeze": {
+    "visco_high": 80,
+    "t_confirm_s": 10,
+    "t_relax_s": 30,
+    "t_max_recover_s": 300
+  }
+}

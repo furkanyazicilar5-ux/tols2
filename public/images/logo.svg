@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <rect width="200" height="80" fill="none"/>
+  <text x="100" y="55" font-size="40" font-family="Arial" font-weight="bold" fill="#0a577e" text-anchor="middle">BUZLIME</text>
+  <circle cx="165" cy="30" r="15" stroke="#0a577e" fill="none" stroke-width="4"/>
+  <line x1="165" y1="15" x2="165" y2="45" stroke="#0a577e" stroke-width="2"/>
+  <line x1="150" y1="30" x2="180" y2="30" stroke="#0a577e" stroke-width="2"/>
+</svg>
