@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 120">
+  <rect x="15" y="10" width="50" height="100" rx="8" ry="8" fill="#d8f4ff" stroke="#0a577e" stroke-width="4"/>
+  <line x1="40" y1="0" x2="40" y2="20" stroke="#0a577e" stroke-width="4"/>
+  <line x1="40" y1="0" x2="50" y2="10" stroke="#0a577e" stroke-width="4"/>
+  <text x="40" y="70" font-size="14" font-family="Arial" font-weight="bold" fill="#0a577e" text-anchor="middle">BUZLIME</text>
+</svg>

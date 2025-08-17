@@ -1,0 +1,16 @@
+{
+  "coils": {
+    "valve_a": 0,
+    "valve_b": 1,
+    "cup_drop": 2,
+    "stirrer": 3,
+    "compressor": 4
+  },
+  "registers": {
+    "status": 0,
+    "error_code": 1,
+    "tank_level_1": 2,
+    "tank_level_2": 3,
+    "heartbeat": 10
+  }
+}

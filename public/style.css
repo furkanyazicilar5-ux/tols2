@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#screen-welcome {
+  background: #00bcd4;
+  color: #fff;
+}
+
+#screen-select {
+  background: linear-gradient(#f7e761, #00d775);
+  color: #333;
+}
+
+#screen-pay {
+  background: linear-gradient(#ff9966, #66ccff);
+  color: #333;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 40px;
+}
+
+.welcome-cups {
+  display: flex;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.cup {
+  width: 100px;
+}
+
+.start-btn {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  padding: 20px 40px;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+  background: #555;
+  color: #fff;
+}
+
+.lang-toggle {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  background: #555;
+  color: #fff;
+}
+
+.lock-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+}
+
+.options {
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.option {
+  cursor: pointer;
+}
+
+.option .cup {
+  width: 120px;
+}
+
+.option .label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.pay-text {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.terminal {
+  width: 120px;
+  margin: 20px 0;
+}
+
+.cards {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
